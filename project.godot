@@ -1,0 +1,24 @@
+; Godot 4.6 — snow-night companion animation study.
+config_version=5
+
+[application]
+config/name="雪夜 · With You"
+run/main_scene="res://scenes/balcony.tscn"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+
+[display]
+window/size/viewport_width=1672
+window/size/viewport_height=941
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+environment/defaults/default_clear_color=Color(0.22, 0.24, 0.33, 1)
+
+[editor]
+movie_writer/fps=30
+movie_writer/mjpeg_quality=0.95
